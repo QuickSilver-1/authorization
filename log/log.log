@@ -1585,3 +1585,101 @@ auth/internal/server.Login.func1
 2024-12-19T13:43:21.972+0300	DEBUG	logger/logger.go:35	creating token
 2024-12-19T13:43:21.972+0300	DEBUG	logger/logger.go:35	creating successful
 2024-12-19T13:43:22.451+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 897.3054ms
+2024-12-19T13:59:37.194+0300	DEBUG	logger/logger.go:35	Начало миграции
+2024-12-19T13:59:37.220+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:59:37.902+0300	ERROR	logger/logger.go:47	Ошибка создания мигратора: failed to open source, "file://../migrations": open .: The system cannot find the file specified.
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/db.CreateSchema
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/db/migrate.go:32
+main.main
+	C:/Users/prusakovR/Documents/GitHub/authorization/cmd/auth/main.go:18
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:271
+2024-12-19T14:00:07.812+0300	DEBUG	logger/logger.go:35	Начало миграции
+2024-12-19T14:00:07.839+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T14:00:08.659+0300	ERROR	logger/logger.go:47	Ошибка создания мигратора: no scheme
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/db.CreateSchema
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/db/migrate.go:32
+main.main
+	C:/Users/prusakovR/Documents/GitHub/authorization/cmd/auth/main.go:18
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:271
+2024-12-19T14:02:08.813+0300	DEBUG	logger/logger.go:35	Начало миграции
+2024-12-19T14:02:08.842+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T14:02:09.548+0300	ERROR	logger/logger.go:47	Ошибка создания мигратора: failed to open source, "file://../migrations": open .: The system cannot find the file specified.
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/db.CreateSchema
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/db/migrate.go:32
+main.main
+	C:/Users/prusakovR/Documents/GitHub/authorization/cmd/auth/main.go:18
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:271
+2024-12-19T14:02:09.549+0300	ERROR	logger/logger.go:47	failed to open source, "file://../migrations": open .: The system cannot find the file specified.
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+main.main
+	C:/Users/prusakovR/Documents/GitHub/authorization/cmd/auth/main.go:21
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:271
+2024-12-19T14:06:08.175+0300	DEBUG	logger/logger.go:35	Начало миграции
+2024-12-19T14:06:08.201+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T14:06:08.948+0300	ERROR	logger/logger.go:47	Ошибка создания мигратора: failed to open source, "file://../migrations/": open .: The system cannot find the file specified.
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/db.CreateSchema
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/db/migrate.go:32
+main.main
+	C:/Users/prusakovR/Documents/GitHub/authorization/cmd/auth/main.go:18
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:271
+2024-12-19T14:06:08.949+0300	ERROR	logger/logger.go:47	failed to open source, "file://../migrations/": open .: The system cannot find the file specified.
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+main.main
+	C:/Users/prusakovR/Documents/GitHub/authorization/cmd/auth/main.go:21
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:271
+2024-12-19T14:06:31.057+0300	DEBUG	logger/logger.go:35	Начало миграции
+2024-12-19T14:06:31.106+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T14:06:31.883+0300	ERROR	logger/logger.go:47	Ошибка создания мигратора: failed to open source, "file://../migrations": open .: The system cannot find the file specified.
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/db.CreateSchema
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/db/migrate.go:32
+main.main
+	C:/Users/prusakovR/Documents/GitHub/authorization/cmd/auth/main.go:18
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:271
+2024-12-19T14:06:31.885+0300	ERROR	logger/logger.go:47	failed to open source, "file://../migrations": open .: The system cannot find the file specified.
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+main.main
+	C:/Users/prusakovR/Documents/GitHub/authorization/cmd/auth/main.go:21
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:271
+2024-12-19T14:06:36.428+0300	DEBUG	logger/logger.go:35	Начало миграции
+2024-12-19T14:06:36.458+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T14:06:37.165+0300	ERROR	logger/logger.go:47	Ошибка создания мигратора: no scheme
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/db.CreateSchema
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/db/migrate.go:32
+main.main
+	C:/Users/prusakovR/Documents/GitHub/authorization/cmd/auth/main.go:18
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:271
+2024-12-19T14:06:37.167+0300	ERROR	logger/logger.go:47	no scheme
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+main.main
+	C:/Users/prusakovR/Documents/GitHub/authorization/cmd/auth/main.go:21
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:271
+2024-12-19T14:07:07.371+0300	DEBUG	logger/logger.go:35	Начало миграции
+2024-12-19T14:07:07.400+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T14:07:08.399+0300	DEBUG	logger/logger.go:35	Миграции успешно применены!
+2024-12-19T14:07:08.400+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080

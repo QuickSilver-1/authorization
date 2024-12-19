@@ -2,6 +2,7 @@ package main
 
 import (
 	"auth/internal/config"
+	"auth/internal/db"
 	"auth/internal/logger"
 	"auth/internal/server"
 )
@@ -9,6 +10,13 @@ import (
 func main() {
 	err := config.NewConfig()
 
+	if err != nil {
+		logger.Log.Error(err.Error())
+		return
+	}
+	
+	err = db.CreateSchema()
+	
 	if err != nil {
 		logger.Log.Error(err.Error())
 		return
