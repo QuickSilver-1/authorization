@@ -181,9 +181,11 @@ func generateTokens(w http.ResponseWriter, ip string, id int, DB *db.ConnectData
 	emailErrchan := make(chan error)
 	go func() {
 		exist := false
+		zero := true
 
 		for result := range out {
 			if ip == result {
+				zero = false
 				exist = true
 				break
 			}
@@ -191,7 +193,12 @@ func generateTokens(w http.ResponseWriter, ip string, id int, DB *db.ConnectData
 
 		if !exist {
 			go DB.SetIp(id, ip, settingErrchan)
-			go note.Note("raprusakov@edu.hse.ru", ip, emailErrchan) //Мок почта
+
+			if !zero {
+				go note.Note("raprusakov@edu.hse.ru", ip, emailErrchan) //Мок почта
+			} else {
+				close(emailErrchan)	
+			}
 
 		} else {
 			close(settingErrchan)

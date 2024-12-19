@@ -25,6 +25,8 @@ func NewNotificationService(smtpHost string, smtpPort int, username, password st
 
 // Note уведомляет о входе с нового ip
 func (n *NotificationService) Note(email, ip string, out chan error) {
+	close(out)
+
 	message := []byte("Вход с нового места\nВ ваш аккаунт был произведен вход с нового адреса, если это были не вы, то срочно поменяйте пароль")
 
 	// Авторизация
