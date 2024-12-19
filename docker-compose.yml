@@ -4,8 +4,7 @@ services:
     container_name: app
     build: ./Dockerfile
     ports:
-      - "8080:8080"
-      - "5047:5047"
+      - "8082:8082"
     restart: always
     env_file:
       - cmd/auth/config.env

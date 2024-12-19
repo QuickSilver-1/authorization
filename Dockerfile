@@ -18,7 +18,7 @@ WORKDIR /app/cmd/auth
 RUN go build -o /app/cmd/auth/main .
 
 # Открываем порты
-EXPOSE 8080
+EXPOSE 8082
 
 # Запускаем приложение
 CMD ["/app/cmd/auth/main"]
