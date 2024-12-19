@@ -2,7 +2,7 @@
 
 build:
 	docker build . --file Dockerfile -t app:latest
-	docker-compose up
+	docker-compose up -d
 
 up:
 	docker start app
