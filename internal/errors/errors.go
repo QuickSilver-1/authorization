@@ -39,3 +39,11 @@ type DbQueryError struct {
 func (e *DbQueryError) Error() string {
 	return e.Err
 }
+
+type EmailError struct {
+	Err string
+}
+
+func (e *EmailError) Error() string {
+	return e.Err
+}

@@ -1683,3 +1683,16 @@ runtime.main
 2024-12-19T14:07:07.400+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
 2024-12-19T14:07:08.399+0300	DEBUG	logger/logger.go:35	Миграции успешно применены!
 2024-12-19T14:07:08.400+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T14:38:18.816+0300	DEBUG	logger/logger.go:35	Начало миграции
+2024-12-19T14:38:18.843+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T14:38:19.854+0300	DEBUG	logger/logger.go:35	Миграции успешно применены!
+2024-12-19T14:38:19.855+0300	DEBUG	logger/logger.go:35	New server creating on port: :8082
+2024-12-19T14:38:22.636+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T14:38:22.637+0300	INFO	logger/logger.go:39	[::1]:50148
+2024-12-19T14:38:22.637+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T14:38:22.686+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T14:38:22.686+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T16:16:17.946+0300	DEBUG	logger/logger.go:35	Начало миграции
+2024-12-19T16:16:17.975+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T16:16:18.935+0300	DEBUG	logger/logger.go:35	Миграции успешно применены!
+2024-12-19T16:16:18.935+0300	DEBUG	logger/logger.go:35	New server creating on port: :8082

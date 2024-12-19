@@ -36,6 +36,7 @@ func Login(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	logger.Log.Info(r.RemoteAddr)
 	ip := strings.Split(r.RemoteAddr, ":")[0]
 
 	DB, err := db.NewDB()
@@ -110,10 +111,15 @@ func Refresh(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	if cookie.Value == "" {
+		http.Error(w, "Cookie not exist", http.StatusBadRequest)
+		return
+	}
+
 	refresh, err := base64.URLEncoding.DecodeString(cookie.Value)
 
 	if err != nil {
-		http.Error(w, "Base64 decoding error", http.StatusInternalServerError)
+		http.Error(w, "Cookie decoding error", http.StatusBadRequest)
 		return
 	}
 
@@ -166,10 +172,13 @@ func answerHandler(w http.ResponseWriter, code int, value *Answer) {
 func generateTokens(w http.ResponseWriter, ip string, id int, DB *db.ConnectDatabase) {
 	defer DB.Conn.Close()
 
+	note := NewNotificationService(config.AppConfig.SmtpHost, config.AppConfig.SmtpPort, config.AppConfig.MailUser, config.AppConfig.MailPass)
+
 	out := make(chan string)
 	ipErrchan := make(chan error)
 
-	var settingErrchan chan error
+	settingErrchan := make(chan error)
+	emailErrchan := make(chan error)
 	go func() {
 		exist := false
 
@@ -181,8 +190,12 @@ func generateTokens(w http.ResponseWriter, ip string, id int, DB *db.ConnectData
 		}
 
 		if !exist {
-			settingErrchan = make(chan error)
 			go DB.SetIp(id, ip, settingErrchan)
+			go note.Note("raprusakov@edu.hse.ru", ip, emailErrchan) //Мок почта
+
+		} else {
+			close(settingErrchan)
+			close(emailErrchan)
 		}
 	}()
 
@@ -227,11 +240,18 @@ func generateTokens(w http.ResponseWriter, ip string, id int, DB *db.ConnectData
 		return
 	}
 
-	err = <-refreshErrchan
+	for err = range settingErrchan {
+		if err != nil {
+			http.Error(w, err.Error(), http.StatusInternalServerError)
+			return
+		}
+	}
 
-	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
+	for err = range emailErrchan {
+		if err != nil {
+			http.Error(w, err.Error(), http.StatusInternalServerError)
+			return
+		}
 	}
 
 	refreshString := base64.URLEncoding.EncodeToString(refresh)

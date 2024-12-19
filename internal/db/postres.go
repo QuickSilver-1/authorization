@@ -148,4 +148,6 @@ func (c *ConnectDatabase) SetIp(id int, ip string, errchan chan error) {
         }
         return
     }
+
+    errchan<- nil
 }
