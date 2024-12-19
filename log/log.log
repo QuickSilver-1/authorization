@@ -1,0 +1,1587 @@
+2024-12-18T18:10:14.048+0300	ERROR	logger/logger.go:47	Invalid "DB_PORT"
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+main.main
+	C:/Users/prusakovR/Documents/GitHub/authorization/cmd/auth/main.go:15
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:271
+2024-12-18T18:11:55.622+0300	ERROR	logger/logger.go:47	Invalid "DB_PORT"
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+main.main
+	C:/Users/prusakovR/Documents/GitHub/authorization/cmd/auth/main.go:15
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:271
+2024-12-18T18:12:52.738+0300	ERROR	logger/logger.go:47	Invalid "DB_PORT"
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+main.main
+	C:/Users/prusakovR/Documents/GitHub/authorization/cmd/auth/main.go:15
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:271
+2024-12-18T18:14:04.164+0300	DEBUG	logger/logger.go:35	New server creating on port: 8080
+2024-12-18T18:14:04.193+0300	ERROR	logger/logger.go:47	Ошибка при запуске сервера: listen tcp: address 8080: missing port in address
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/server.(*Server).StartServer
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/server.go:43
+main.main
+	C:/Users/prusakovR/Documents/GitHub/authorization/cmd/auth/main.go:21
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:271
+2024-12-18T18:14:04.194+0300	ERROR	logger/logger.go:47	listen tcp: address 8080: missing port in address
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+main.main
+	C:/Users/prusakovR/Documents/GitHub/authorization/cmd/auth/main.go:24
+runtime.main
+	C:/Program Files/Go/src/runtime/proc.go:271
+2024-12-18T18:21:08.323+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T18:21:18.474+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T18:21:31.102+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T18:22:18.913+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T18:22:18.913+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 681.5µs
+2024-12-18T18:23:04.128+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T18:23:21.111+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T18:23:21.112+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T18:23:21.112+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T18:23:21.113+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 1.5168ms
+2024-12-18T18:33:59.069+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T18:33:59.191+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T18:38:12.879+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T18:38:12.880+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T18:38:12.881+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T18:38:12.882+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 3.1191ms
+2024-12-18T18:38:13.156+0300	ERROR	logger/logger.go:47	Ошибка кодирования ответа: http: wrote more than the declared Content-Length
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/server.answerHandler
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:98
+auth/internal/server.Login.func1
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:53
+2024-12-18T18:43:00.252+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T18:43:00.362+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T18:43:02.246+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T18:43:02.248+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T18:43:02.249+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T18:43:02.251+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 4.919ms
+2024-12-18T18:43:02.541+0300	ERROR	logger/logger.go:47	Ошибка кодирования ответа: http: wrote more than the declared Content-Length
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/server.answerHandler
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:99
+auth/internal/server.Login.func1
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:53
+2024-12-18T18:44:41.501+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T18:44:41.563+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T18:44:43.882+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T18:44:43.887+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T18:44:43.889+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T18:44:43.890+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 7.2503ms
+2024-12-18T18:44:44.154+0300	ERROR	logger/logger.go:47	Ошибка кодирования ответа: http: wrote more than the declared Content-Length
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/server.answerHandler
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:100
+auth/internal/server.Login.func1
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:53
+2024-12-18T18:45:24.702+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T18:45:24.802+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T18:45:25.734+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T18:45:25.737+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T18:45:25.739+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T18:45:25.739+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 4.9084ms
+2024-12-18T18:45:26.016+0300	ERROR	logger/logger.go:47	Ошибка кодирования ответа: http: wrote more than the declared Content-Length
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/server.answerHandler
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:98
+auth/internal/server.Login.func1
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:53
+2024-12-18T18:47:10.512+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T18:47:10.643+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T18:47:15.879+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T18:47:15.882+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T18:47:15.883+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T18:47:15.884+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 3.7245ms
+2024-12-18T18:47:16.159+0300	ERROR	logger/logger.go:47	Ошибка кодирования ответа: http: wrote more than the declared Content-Length
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/server.answerHandler
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:98
+auth/internal/server.Login.func1
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:53
+2024-12-18T18:47:43.991+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T18:47:44.126+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T18:47:44.911+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T18:47:44.912+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T18:47:44.913+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T18:47:44.913+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 3.0056ms
+2024-12-18T18:47:45.166+0300	ERROR	logger/logger.go:47	Ошибка кодирования ответа: http: wrote more than the declared Content-Length
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/server.answerHandler
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:98
+auth/internal/server.Login.func1
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:53
+2024-12-18T18:48:09.327+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T18:48:09.461+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T18:48:10.469+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T18:48:10.473+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T18:48:10.474+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T18:48:10.475+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 6.2831ms
+2024-12-18T18:48:10.749+0300	ERROR	logger/logger.go:47	Ошибка кодирования ответа: http: wrote more than the declared Content-Length
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/server.answerHandler
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:98
+auth/internal/server.Login.func1
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:53
+2024-12-18T18:48:31.203+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T18:48:31.328+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T18:48:32.835+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T18:48:32.839+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T18:48:32.840+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T18:48:32.840+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 4.9047ms
+2024-12-18T18:48:33.103+0300	ERROR	logger/logger.go:47	Ошибка кодирования ответа: http: wrote more than the declared Content-Length
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/server.answerHandler
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:100
+auth/internal/server.Login.func1
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:54
+2024-12-18T18:48:52.823+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T18:48:52.954+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T18:48:53.879+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T18:48:53.880+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T18:48:53.881+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T18:48:53.882+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 2.7035ms
+2024-12-18T18:48:54.141+0300	ERROR	logger/logger.go:47	Ошибка кодирования ответа: http: wrote more than the declared Content-Length
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/server.answerHandler
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:98
+auth/internal/server.Login.func1
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:53
+2024-12-18T18:50:26.531+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T18:50:26.652+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T18:50:35.609+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T18:50:35.614+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T18:50:35.615+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T18:50:35.616+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 7.1295ms
+2024-12-18T18:50:35.891+0300	ERROR	logger/logger.go:47	Ошибка кодирования ответа: http: wrote more than the declared Content-Length
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/server.answerHandler
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:99
+auth/internal/server.Login.func1
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:53
+2024-12-18T18:52:12.672+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T18:52:12.780+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T18:52:16.386+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T18:52:16.389+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T18:52:16.390+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T18:52:16.390+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 4.2315ms
+2024-12-18T18:52:16.655+0300	ERROR	logger/logger.go:47	Ошибка кодирования ответа: http: wrote more than the declared Content-Length
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/server.answerHandler
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:99
+auth/internal/server.Login.func1
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:53
+2024-12-18T18:52:37.534+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T18:52:37.660+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T18:52:48.368+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T18:52:48.368+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T18:52:48.369+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T18:52:48.370+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 2.4982ms
+2024-12-18T18:52:48.628+0300	ERROR	logger/logger.go:47	Ошибка кодирования ответа: http: wrote more than the declared Content-Length
+auth/internal/logger.Logger.Error
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/logger/logger.go:47
+auth/internal/server.answerHandler
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:99
+auth/internal/server.Login.func1
+	C:/Users/prusakovR/Documents/GitHub/authorization/internal/server/handler.go:53
+2024-12-18T19:36:32.506+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T19:36:32.541+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T19:36:35.801+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T19:36:35.802+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T19:36:35.804+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T19:36:35.804+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 2.7325ms
+2024-12-18T19:39:04.585+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T19:39:04.708+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T19:39:06.050+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T19:39:06.052+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T19:39:06.054+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T19:39:06.055+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 4.3292ms
+2024-12-18T19:43:56.956+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T19:43:57.004+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T19:43:59.325+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T19:43:59.329+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T19:43:59.331+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T19:43:59.331+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 6.275ms
+2024-12-18T19:44:25.001+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T19:44:25.124+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T19:44:28.520+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T19:44:28.521+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T19:44:28.522+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T19:44:28.522+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 4.8717ms
+2024-12-18T19:45:00.620+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T19:45:00.659+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T19:45:01.647+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T19:45:01.648+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T19:45:01.649+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T19:45:01.650+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 2.781ms
+2024-12-18T19:46:12.201+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T19:46:12.235+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T19:46:16.708+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T19:46:16.710+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T19:46:16.712+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T19:46:16.712+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 4.0253ms
+2024-12-18T19:46:29.178+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T19:46:29.302+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T19:46:31.858+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T19:46:31.859+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T19:46:31.860+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T19:46:31.861+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 2.6119ms
+2024-12-18T19:46:37.540+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T19:46:37.541+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T19:46:37.542+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T19:46:37.543+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 2.8708ms
+2024-12-18T19:48:50.550+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T19:48:50.649+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T19:48:52.564+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T19:48:52.567+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T19:48:52.568+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T19:48:52.569+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 4.8435ms
+2024-12-18T19:49:54.382+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T19:49:54.485+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T19:49:55.593+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T19:49:55.594+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 1.3345ms
+2024-12-18T19:50:51.029+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T19:50:51.102+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T19:50:52.350+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T19:50:52.354+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T19:50:52.355+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T19:50:52.356+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 6.1888ms
+2024-12-18T19:51:24.988+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T19:51:25.098+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T19:51:26.412+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T19:51:26.417+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T19:51:26.417+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T19:51:26.418+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 6.1556ms
+2024-12-18T19:51:59.321+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T19:51:59.443+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T19:52:15.595+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T19:52:15.597+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T19:52:15.599+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T19:52:15.599+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 4.5622ms
+2024-12-18T19:52:54.687+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T19:52:54.727+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T19:52:56.243+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T19:52:59.256+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T19:52:59.258+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T19:52:59.259+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 3.016231s
+2024-12-18T19:53:42.193+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T19:53:42.325+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T19:54:34.653+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T19:54:34.657+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T19:54:34.658+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T19:54:34.659+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 6.5258ms
+2024-12-18T19:56:02.969+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T19:56:03.035+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T19:56:08.752+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T19:56:08.755+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 2.9188ms
+2024-12-18T20:00:30.675+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T20:00:30.767+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T20:00:32.576+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:00:32.578+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:00:32.579+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:00:32.580+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 3.9508ms
+2024-12-18T20:01:17.694+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T20:01:17.811+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T20:01:23.091+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:01:23.092+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:01:23.093+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:01:23.094+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 2.8734ms
+2024-12-18T20:05:07.658+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T20:05:07.779+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T20:05:11.189+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:05:11.190+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:05:11.192+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:05:11.478+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 289.7842ms
+2024-12-18T20:05:45.467+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:05:45.469+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:05:45.470+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:05:45.736+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 269.7855ms
+2024-12-18T20:05:49.422+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T20:05:49.452+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T20:05:50.381+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:05:50.382+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:05:50.383+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:05:50.656+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 274.9748ms
+2024-12-18T20:06:14.754+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T20:06:14.864+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T20:06:15.572+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:06:15.574+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:06:15.575+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:06:15.913+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 340.9125ms
+2024-12-18T20:06:35.820+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T20:06:35.973+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T20:06:38.134+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:06:38.136+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:06:38.137+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:06:38.567+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 433.0184ms
+2024-12-18T20:27:55.789+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T20:27:55.818+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T20:28:00.241+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:28:00.241+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:28:00.241+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:28:00.556+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 315.4807ms
+2024-12-18T20:32:11.000+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T20:32:11.026+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T20:32:23.021+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:32:23.021+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:32:23.022+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:32:23.512+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 491.2824ms
+2024-12-18T20:36:22.229+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T20:36:22.257+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T20:36:25.045+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:36:25.045+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:36:25.046+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:36:25.365+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 320.0232ms
+2024-12-18T20:37:10.725+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:37:10.726+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:37:10.726+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:37:11.040+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 315.2949ms
+2024-12-18T20:40:55.022+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T20:40:55.050+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T20:41:00.695+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:41:00.695+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:41:00.696+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:41:01.013+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 318.7016ms
+2024-12-18T20:41:27.318+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T20:41:27.347+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T20:41:31.296+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:41:31.297+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:41:31.297+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:41:31.617+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 320.7622ms
+2024-12-18T20:42:27.727+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T20:42:27.762+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T20:42:34.399+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:42:34.399+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:42:34.400+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:42:34.855+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 456.5389ms
+2024-12-18T20:43:03.647+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T20:43:03.676+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T20:43:09.199+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:43:09.199+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:43:09.200+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:43:09.516+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 316.9526ms
+2024-12-18T20:43:19.587+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:43:19.588+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:43:19.588+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:43:20.033+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 445.9084ms
+2024-12-18T20:44:08.154+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:44:08.155+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:44:08.155+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:44:08.716+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 561.4827ms
+2024-12-18T20:54:21.216+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T20:54:21.244+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T20:54:31.475+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:54:31.476+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:54:31.476+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:54:31.792+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 316.6801ms
+2024-12-18T20:54:39.166+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T20:54:39.167+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T20:54:39.168+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T20:54:39.484+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 317.9321ms
+2024-12-18T21:00:35.911+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T21:00:35.938+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T21:00:42.066+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T21:00:42.066+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T21:00:42.067+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T21:00:42.596+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 530.6224ms
+2024-12-18T21:00:59.176+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T21:00:59.177+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T21:00:59.178+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T21:00:59.607+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 431.1271ms
+2024-12-18T21:14:25.681+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T21:14:25.707+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T21:14:40.050+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T21:14:40.051+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T21:14:40.052+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T21:14:40.493+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 442.4407ms
+2024-12-18T21:26:41.487+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T21:26:41.515+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T21:26:47.062+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T21:26:47.109+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T21:26:47.109+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T21:26:47.551+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 489.3657ms
+2024-12-18T21:27:18.667+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T21:27:18.716+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T21:27:18.716+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T21:27:19.333+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 666.541ms
+2024-12-18T21:35:02.018+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T21:35:02.059+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T21:35:07.664+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T21:35:07.711+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T21:35:07.711+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T21:35:08.133+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 469.4698ms
+2024-12-18T21:35:22.112+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T21:35:22.146+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T21:35:24.324+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T21:35:24.371+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T21:35:24.371+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T21:35:25.059+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 734.7843ms
+2024-12-18T21:58:42.819+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T21:58:42.849+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T21:59:00.462+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T21:59:00.510+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T21:59:00.511+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T21:59:32.980+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T21:59:33.008+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T21:59:34.844+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T21:59:34.892+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T21:59:34.892+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T21:59:51.198+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T21:59:51.234+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T21:59:52.451+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T21:59:52.499+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T21:59:52.500+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T22:01:34.674+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T22:01:34.701+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T22:01:37.578+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T22:01:37.626+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T22:01:37.626+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T22:02:37.203+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T22:02:37.231+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T22:02:38.980+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T22:02:39.028+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T22:02:39.029+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T22:02:39.650+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 670.4352ms
+2024-12-18T23:42:55.923+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T23:42:56.041+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T23:43:11.202+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T23:43:11.391+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T23:43:11.391+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T23:43:55.604+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T23:43:55.732+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T23:43:57.316+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T23:43:57.507+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T23:43:57.507+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T23:44:31.691+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T23:44:31.818+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T23:44:33.398+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T23:44:33.610+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T23:44:33.611+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-18T23:45:35.544+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-18T23:45:35.603+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-18T23:45:37.640+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-18T23:45:37.820+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-18T23:45:37.820+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T02:16:06.527+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T02:16:06.639+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T02:16:10.434+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T02:16:10.616+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T02:16:10.616+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T02:16:11.611+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 1.1765214s
+2024-12-19T02:36:02.945+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T02:36:02.972+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T02:36:39.634+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T02:37:18.070+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T02:37:18.205+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T02:37:21.847+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T02:37:21.854+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 6.6738ms
+2024-12-19T02:37:50.801+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T02:37:50.803+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.6117ms
+2024-12-19T02:38:31.706+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T02:38:31.824+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T02:38:34.488+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T02:38:34.490+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.7248ms
+2024-12-19T02:40:12.273+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T02:40:12.338+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T02:40:42.896+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T02:40:42.898+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 2.1711ms
+2024-12-19T02:43:56.744+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T02:43:56.778+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T02:43:59.641+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T02:43:59.642+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.3332ms
+2024-12-19T10:36:50.723+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T10:36:50.813+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T10:37:21.608+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T10:37:21.663+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T10:37:21.667+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T10:37:22.220+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 612.6231ms
+2024-12-19T10:37:27.722+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T10:37:27.725+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 3.1026ms
+2024-12-19T10:38:12.283+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T10:38:12.374+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T10:38:16.158+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T10:38:16.353+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T10:38:16.357+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T10:39:58.370+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T10:39:58.438+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T10:40:02.022+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T10:40:02.220+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T10:40:02.220+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T10:40:02.969+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 947.643ms
+2024-12-19T10:40:09.772+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T10:40:09.980+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T10:40:09.980+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T10:40:11.320+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 1.5477448s
+2024-12-19T10:40:14.311+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T10:40:14.351+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T10:40:16.473+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T10:40:16.657+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T10:40:16.657+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T10:40:20.316+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 3.8429442s
+2024-12-19T10:40:22.939+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T10:40:23.058+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T10:40:23.062+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T10:40:25.571+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 2.6325601s
+2024-12-19T10:40:31.812+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T10:40:31.985+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T10:40:31.985+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T10:40:33.011+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 1.1989282s
+2024-12-19T10:40:46.787+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T10:40:46.956+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T10:40:46.956+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T10:40:47.670+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 882.2735ms
+2024-12-19T10:40:51.213+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T10:40:51.421+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T10:40:51.425+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T10:40:52.483+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 1.2697535s
+2024-12-19T10:41:03.503+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T10:41:03.901+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 398.3442ms
+2024-12-19T10:42:22.281+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T10:42:22.406+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T10:42:33.411+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T10:42:33.834+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 422.3306ms
+2024-12-19T10:55:01.619+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T10:55:01.658+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T10:55:04.509+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T10:55:04.759+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 250.3481ms
+2024-12-19T10:56:04.191+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T10:56:04.297+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T10:56:10.856+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T10:57:14.332+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T10:57:14.459+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T10:57:14.467+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T10:57:14.796+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 328.0493ms
+2024-12-19T10:57:19.309+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T10:57:19.608+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 298.2916ms
+2024-12-19T10:57:38.637+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T10:57:38.685+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T10:57:40.658+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T10:57:40.974+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 316.5357ms
+2024-12-19T10:58:29.833+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T10:58:29.911+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T10:58:31.948+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T10:58:32.268+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 320.6387ms
+2024-12-19T10:59:00.520+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T10:59:00.641+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T10:59:01.860+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T10:59:02.158+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 298.4036ms
+2024-12-19T10:59:12.909+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T10:59:12.940+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T10:59:22.221+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T10:59:22.520+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 298.9321ms
+2024-12-19T10:59:30.775+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T10:59:30.841+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T10:59:31.758+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T10:59:32.066+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 308.3551ms
+2024-12-19T11:00:29.088+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:00:29.194+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:00:31.739+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:00:32.057+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 317.9873ms
+2024-12-19T11:00:54.124+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:00:54.262+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:00:56.029+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:00:56.351+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 322.5111ms
+2024-12-19T11:01:07.754+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:01:07.844+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:01:08.556+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:01:08.870+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 314.0818ms
+2024-12-19T11:02:19.709+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:02:19.802+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:02:20.667+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:02:20.988+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 320.7241ms
+2024-12-19T11:03:15.571+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:03:15.706+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:03:16.376+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:03:16.689+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 312.8979ms
+2024-12-19T11:04:48.395+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:04:48.502+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:04:49.918+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:04:50.255+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 336.7335ms
+2024-12-19T11:04:58.568+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:04:58.631+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:04:59.594+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:04:59.907+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 312.693ms
+2024-12-19T11:05:52.806+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:05:52.934+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:05:53.702+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:05:54.040+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 338.2838ms
+2024-12-19T11:06:51.343+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:06:51.470+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:06:52.811+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:06:53.117+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 305.8526ms
+2024-12-19T11:08:38.721+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:08:38.763+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:08:39.834+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:08:40.150+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 315.402ms
+2024-12-19T11:11:08.106+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T11:11:08.175+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T11:11:08.179+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T11:11:08.731+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 625.0181ms
+2024-12-19T11:14:09.410+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:14:09.486+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:14:13.256+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:14:13.256+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 535.1µs
+2024-12-19T11:14:31.945+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:14:31.976+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:14:33.443+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:14:33.445+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.9538ms
+2024-12-19T11:15:25.157+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:15:25.225+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:15:35.558+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:15:35.560+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.8712ms
+2024-12-19T11:18:03.528+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:18:03.580+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:18:07.824+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T11:18:08.011+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T11:18:08.015+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T11:18:08.569+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 745.213ms
+2024-12-19T11:21:37.768+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:21:37.847+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:21:45.219+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T11:21:45.422+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T11:21:45.426+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T11:21:45.993+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 774.2698ms
+2024-12-19T11:21:59.774+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:21:59.901+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:22:01.153+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T11:22:01.319+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T11:22:01.322+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T11:22:01.860+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 706.4284ms
+2024-12-19T11:23:03.978+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:23:03.981+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 2.4795ms
+2024-12-19T11:23:04.743+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:23:04.744+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.1176ms
+2024-12-19T11:23:53.575+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:23:53.611+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:23:57.275+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T11:23:57.484+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T11:23:57.485+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T11:23:58.269+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 994.6536ms
+2024-12-19T11:24:02.265+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:24:02.268+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 3.1918ms
+2024-12-19T11:28:51.220+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:28:51.358+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:28:56.056+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:28:56.057+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.2937ms
+2024-12-19T11:29:08.566+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:29:08.608+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:29:11.348+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:29:11.349+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.7763ms
+2024-12-19T11:29:15.990+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:29:15.995+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 5.2055ms
+2024-12-19T11:32:45.962+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:32:46.062+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:32:51.621+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T11:32:51.685+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T11:32:51.685+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T11:32:52.226+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 604.7675ms
+2024-12-19T11:34:49.198+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:34:49.315+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:34:52.189+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T11:34:52.306+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T11:34:52.310+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T11:34:52.841+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 652.0292ms
+2024-12-19T11:35:15.234+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T11:35:15.373+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T11:35:15.373+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T11:35:15.981+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 746.1424ms
+2024-12-19T11:35:24.798+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T11:35:24.993+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T11:35:24.993+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T11:35:25.557+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 758.805ms
+2024-12-19T11:36:36.423+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:36:36.542+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:36:38.596+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T11:36:38.807+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T11:36:38.807+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T11:36:39.324+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 728.2617ms
+2024-12-19T11:36:48.148+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:36:48.480+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 331.6491ms
+2024-12-19T11:36:49.167+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:36:49.272+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 105.2067ms
+2024-12-19T11:43:47.534+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:43:47.655+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:43:51.455+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:43:51.796+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 340.6973ms
+2024-12-19T11:44:21.258+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T11:44:21.330+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T11:44:21.330+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T11:44:21.870+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 612.2066ms
+2024-12-19T11:44:32.746+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:44:33.082+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 336.4446ms
+2024-12-19T11:44:34.779+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:44:34.898+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 118.607ms
+2024-12-19T11:46:36.326+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:46:36.459+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:46:39.245+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T11:46:39.449+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T11:46:39.453+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T11:46:39.994+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 748.9001ms
+2024-12-19T11:46:56.626+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:46:56.940+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 313.8653ms
+2024-12-19T11:47:17.749+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:47:17.881+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:47:20.161+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T11:47:20.326+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T11:47:20.326+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T11:47:20.843+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 681.3981ms
+2024-12-19T11:47:21.345+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:47:21.663+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 318.1338ms
+2024-12-19T11:48:53.634+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T11:48:53.694+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T11:48:56.716+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T11:48:56.866+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T11:48:56.866+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T11:48:57.408+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 692.0056ms
+2024-12-19T11:48:57.940+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T11:48:58.255+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 314.5244ms
+2024-12-19T12:03:07.695+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:03:07.817+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:03:13.331+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:03:32.052+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:03:32.101+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:03:32.127+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:03:32.447+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 319.4499ms
+2024-12-19T12:03:39.617+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:03:39.737+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:03:40.486+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:03:40.815+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 328.4514ms
+2024-12-19T12:03:57.244+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:03:57.310+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:03:58.345+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:03:58.665+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 320.8385ms
+2024-12-19T12:04:14.747+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:04:14.863+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:04:15.965+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:04:16.288+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 322.7123ms
+2024-12-19T12:05:20.137+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:05:20.324+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:05:20.324+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:05:20.919+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 781.6474ms
+2024-12-19T12:05:46.641+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:05:46.777+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:05:50.789+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:05:50.958+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:05:50.963+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:05:51.504+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 715.0076ms
+2024-12-19T12:06:31.763+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:06:31.897+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:06:33.526+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:06:33.699+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:06:33.703+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:06:34.227+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 700.8789ms
+2024-12-19T12:06:50.976+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:06:51.120+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:06:51.837+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:06:52.010+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:06:52.014+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:06:52.553+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 716.5146ms
+2024-12-19T12:07:18.645+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:07:18.683+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:07:19.701+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:07:19.902+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:07:19.906+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:07:20.514+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 812.8294ms
+2024-12-19T12:07:31.284+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:07:31.406+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:07:32.013+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:07:32.205+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:07:32.209+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:07:32.746+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 732.9386ms
+2024-12-19T12:08:49.878+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:08:49.993+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:08:50.968+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:08:51.186+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:08:51.186+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:08:51.693+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 725.2397ms
+2024-12-19T12:08:59.968+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:09:00.046+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:09:00.046+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:09:00.624+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 655.5774ms
+2024-12-19T12:09:08.043+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:09:08.380+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 336.7575ms
+2024-12-19T12:09:35.486+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:09:35.545+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:09:36.820+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:09:37.128+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 308.506ms
+2024-12-19T12:09:45.813+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:09:46.142+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 329.3388ms
+2024-12-19T12:12:57.402+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:12:57.521+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:13:04.482+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:13:04.695+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:13:04.695+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:13:05.208+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 725.6037ms
+2024-12-19T12:13:18.535+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:13:18.966+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 430.5786ms
+2024-12-19T12:13:23.522+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:13:23.725+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:13:23.725+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:13:24.270+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 747.4277ms
+2024-12-19T12:13:56.449+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:13:56.524+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:13:57.664+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:13:57.824+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:13:57.824+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:13:58.324+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 660.0121ms
+2024-12-19T12:14:02.138+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:14:02.464+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 326.1823ms
+2024-12-19T12:15:38.837+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:15:38.946+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:15:41.706+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:15:41.897+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:15:41.901+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:15:42.488+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 786.1018ms
+2024-12-19T12:15:44.800+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:15:45.115+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 314.9236ms
+2024-12-19T12:16:37.133+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:16:37.248+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:16:38.949+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:16:39.270+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 320.2346ms
+2024-12-19T12:20:30.773+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:20:30.932+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:20:35.343+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:20:35.667+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 324.3135ms
+2024-12-19T12:20:52.224+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:20:52.330+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:20:53.407+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:20:53.724+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 317.0726ms
+2024-12-19T12:21:08.861+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:21:09.162+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 301.1508ms
+2024-12-19T12:21:15.662+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:21:15.705+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:21:16.985+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:21:17.302+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 316.5925ms
+2024-12-19T12:21:21.938+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:21:22.469+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 531.291ms
+2024-12-19T12:21:22.501+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:21:22.601+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 100.1951ms
+2024-12-19T12:21:50.945+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:21:51.140+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:21:51.140+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:21:51.694+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 749.7269ms
+2024-12-19T12:21:55.342+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:21:56.078+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:21:56.078+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:21:56.639+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.2977826s
+2024-12-19T12:23:13.203+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:23:34.249+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 21.0460253s
+2024-12-19T12:23:34.252+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:23:34.574+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 322.2421ms
+2024-12-19T12:28:46.767+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:28:46.972+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:28:46.973+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:28:47.485+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 718.4563ms
+2024-12-19T12:28:50.542+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:28:51.093+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:28:51.093+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:30:24.008+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:30:31.365+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:30:31.403+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:30:31.489+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:30:31.825+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 335.4425ms
+2024-12-19T12:30:34.966+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:30:35.282+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 316.3089ms
+2024-12-19T12:30:37.413+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:30:37.527+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 114.1906ms
+2024-12-19T12:30:42.650+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:30:42.826+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:30:42.826+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:30:43.397+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 746.949ms
+2024-12-19T12:30:45.492+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:30:45.989+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:30:45.989+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:30:46.533+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.0412616s
+2024-12-19T12:30:55.212+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:30:55.321+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:30:55.322+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:30:55.872+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 660.523ms
+2024-12-19T12:30:57.959+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:30:58.414+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:30:58.414+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:30:58.956+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 997.3907ms
+2024-12-19T12:31:06.122+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:31:31.242+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:31:31.343+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:31:31.488+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:31:32.077+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:31:32.077+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:31:32.363+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:31:32.541+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:31:32.541+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:31:32.616+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.1283668s
+2024-12-19T12:31:33.086+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 723.0968ms
+2024-12-19T12:31:37.757+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:31:37.820+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:31:39.521+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:31:39.609+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:31:39.610+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:31:40.149+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 627.7095ms
+2024-12-19T12:31:52.659+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:31:53.329+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:31:53.329+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:31:53.889+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.2299942s
+2024-12-19T12:32:10.493+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:32:11.022+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:32:11.022+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:32:11.526+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.0327687s
+2024-12-19T12:32:15.034+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:32:15.759+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:32:15.759+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:32:16.276+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.2413901s
+2024-12-19T12:32:17.299+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:32:17.949+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:32:17.953+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:32:18.547+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.2475804s
+2024-12-19T12:32:18.792+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:32:19.347+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:32:19.347+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:32:20.015+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:33:19.058+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:33:19.145+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:33:19.927+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:33:20.258+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 330.3879ms
+2024-12-19T12:33:56.985+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:33:57.132+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:33:57.132+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:33:57.675+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 690.5725ms
+2024-12-19T12:34:05.721+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:34:06.235+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:34:06.235+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:34:06.786+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.0694682s
+2024-12-19T12:34:14.394+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:34:15.460+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:34:15.460+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:34:16.094+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.7009386s
+2024-12-19T12:34:21.783+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:34:22.624+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:34:22.625+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:34:23.189+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.4067943s
+2024-12-19T12:34:28.036+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:34:28.570+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:34:28.570+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:34:37.147+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:34:37.310+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:34:37.314+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:34:41.219+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:34:45.262+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:34:45.322+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:34:45.326+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:35:00.980+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:35:01.060+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:35:01.060+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:35:40.370+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:35:40.442+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:35:40.442+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:36:46.215+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:36:46.363+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:36:46.375+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:36:46.575+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:36:46.575+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:36:47.120+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 744.842ms
+2024-12-19T12:36:52.774+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:36:52.976+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:36:52.980+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:36:53.520+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 746.7219ms
+2024-12-19T12:36:55.802+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:36:56.000+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:36:56.003+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:36:56.518+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 715.9271ms
+2024-12-19T12:36:58.603+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:36:58.785+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:36:58.789+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:36:59.328+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 725.0973ms
+2024-12-19T12:37:00.981+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:37:01.184+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:37:01.184+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:37:01.727+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 745.8788ms
+2024-12-19T12:37:19.817+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:37:20.475+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:37:20.475+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:37:21.029+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.2115648s
+2024-12-19T12:37:55.150+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:37:55.545+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:37:55.545+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:37:56.102+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 951.5472ms
+2024-12-19T12:37:58.305+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:37:58.608+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:37:58.608+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:38:54.828+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:38:54.856+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:38:54.984+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:38:55.287+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 303.0514ms
+2024-12-19T12:38:57.645+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:38:57.694+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:38:57.694+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:38:58.193+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 547.5544ms
+2024-12-19T12:39:02.324+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:39:02.737+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:39:02.738+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:39:03.263+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 938.7879ms
+2024-12-19T12:39:04.954+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:39:05.372+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:39:05.373+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:39:05.899+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 945.1159ms
+2024-12-19T12:39:08.142+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:39:08.551+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:39:08.551+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:39:09.053+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 910.9389ms
+2024-12-19T12:39:11.213+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:39:11.599+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:39:11.600+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:39:59.812+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:39:59.843+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:40:02.564+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:40:02.610+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:40:02.610+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:40:03.133+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 569.179ms
+2024-12-19T12:40:06.952+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:40:07.350+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:40:07.351+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:40:07.852+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 900.3253ms
+2024-12-19T12:40:10.125+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:40:10.513+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:40:10.514+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:40:11.022+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 897.2536ms
+2024-12-19T12:40:14.929+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:40:15.317+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:40:15.318+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:40:15.847+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 918.0114ms
+2024-12-19T12:40:17.917+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:40:18.309+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:40:18.309+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:40:18.795+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 877.9839ms
+2024-12-19T12:40:20.880+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:40:21.171+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:40:21.171+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:40:42.559+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:40:42.586+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:40:42.769+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:40:43.072+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 302.4159ms
+2024-12-19T12:40:45.385+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:40:45.433+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:40:45.433+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:40:45.918+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 533.3525ms
+2024-12-19T12:40:49.995+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:40:50.413+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:40:50.413+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:40:50.932+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 936.2701ms
+2024-12-19T12:40:52.898+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:40:53.316+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:40:53.317+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:40:53.847+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 948.3505ms
+2024-12-19T12:40:55.749+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:41:16.784+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 21.0354762s
+2024-12-19T12:41:16.786+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:41:17.074+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 288.1568ms
+2024-12-19T12:41:59.106+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:41:59.132+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:42:03.469+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:42:03.518+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:42:03.518+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:42:04.026+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 556.4545ms
+2024-12-19T12:42:07.510+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:42:07.919+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:42:07.919+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:42:08.444+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 934.4911ms
+2024-12-19T12:42:14.330+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:42:14.718+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:42:14.719+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:42:15.259+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 929.6107ms
+2024-12-19T12:42:17.202+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:42:17.581+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:42:17.581+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:42:18.087+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 885.5458ms
+2024-12-19T12:42:20.227+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:42:20.634+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:42:20.635+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:42:21.162+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 935.3599ms
+2024-12-19T12:42:23.146+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:42:23.449+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:42:23.449+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:46:08.956+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:46:08.984+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:46:09.137+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:46:09.436+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 298.1584ms
+2024-12-19T12:46:12.650+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:46:12.698+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:46:12.699+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:46:13.188+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 537.8749ms
+2024-12-19T12:46:15.938+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:46:16.350+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:46:16.350+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:46:16.872+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 933.9898ms
+2024-12-19T12:46:19.022+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:46:19.418+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:46:19.418+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:46:19.947+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 924.7359ms
+2024-12-19T12:46:22.669+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:46:23.080+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:46:23.081+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:46:23.569+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 900.5139ms
+2024-12-19T12:46:25.637+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:46:26.057+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:46:26.057+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:52:33.145+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:52:33.172+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:52:33.199+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:52:33.599+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 400.5333ms
+2024-12-19T12:52:37.022+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:52:37.070+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:52:37.070+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:52:37.691+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 669.5716ms
+2024-12-19T12:52:55.277+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:52:55.676+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:52:55.677+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:52:56.438+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.1610253s
+2024-12-19T12:53:15.494+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:53:15.882+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:53:15.882+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:53:16.388+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 894.6869ms
+2024-12-19T12:53:55.825+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:53:56.264+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:53:56.264+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:53:56.838+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.0123437s
+2024-12-19T12:54:15.824+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:54:16.475+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:54:16.476+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:55:57.239+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T12:55:57.267+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T12:55:57.455+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:55:57.795+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 340.2548ms
+2024-12-19T12:56:11.798+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T12:56:11.848+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:56:11.848+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:56:12.466+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 668.3832ms
+2024-12-19T12:56:25.838+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:56:26.365+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:56:26.365+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:56:27.020+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.1819563s
+2024-12-19T12:56:47.232+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:56:47.681+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:56:47.682+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:56:48.245+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.0130929s
+2024-12-19T12:56:53.900+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:56:54.375+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:56:54.376+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T12:56:55.041+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.1418362s
+2024-12-19T12:56:57.083+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T12:56:57.524+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T12:56:57.525+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:00:24.358+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:00:24.387+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T13:00:24.476+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:00:24.800+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 323.8815ms
+2024-12-19T13:00:27.229+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:00:27.278+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:00:27.278+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:00:27.893+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 663.4682ms
+2024-12-19T13:00:30.339+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:00:30.787+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:00:30.787+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:00:31.397+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.0587582s
+2024-12-19T13:00:32.909+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:00:33.297+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:00:33.298+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:00:33.876+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 966.432ms
+2024-12-19T13:00:36.031+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:00:36.412+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:00:36.412+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:00:36.991+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 959.4651ms
+2024-12-19T13:00:40.914+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:00:41.309+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:00:41.309+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:01:16.237+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:01:16.265+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T13:01:16.432+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:01:16.731+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 299.0151ms
+2024-12-19T13:01:18.940+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:01:18.989+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:01:18.990+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:01:19.571+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 630.8515ms
+2024-12-19T13:01:20.824+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:01:21.236+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:01:21.237+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:01:21.788+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 963.9437ms
+2024-12-19T13:01:23.711+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:01:24.140+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:01:24.141+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:01:24.720+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.0097859s
+2024-12-19T13:01:26.660+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:01:27.093+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:01:27.093+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:01:27.651+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 991.2795ms
+2024-12-19T13:01:29.839+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:01:30.219+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:01:30.219+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:01:42.877+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:01:42.904+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T13:01:42.913+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:01:43.203+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 289.7685ms
+2024-12-19T13:01:55.929+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:01:55.977+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:01:55.977+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:01:56.538+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 608.954ms
+2024-12-19T13:01:58.619+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:01:58.668+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:01:58.668+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:01:59.209+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 589.7031ms
+2024-12-19T13:02:01.377+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:02:01.426+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:02:01.426+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:02:01.962+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 585.3412ms
+2024-12-19T13:02:05.184+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:02:05.232+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:02:05.232+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:02:05.823+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 639.0083ms
+2024-12-19T13:02:14.425+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:02:14.473+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:02:14.473+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:02:15.014+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 589.1047ms
+2024-12-19T13:02:22.516+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:02:22.564+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:02:22.564+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:02:23.091+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 574.9159ms
+2024-12-19T13:02:25.886+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:02:25.934+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:02:25.934+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:02:26.510+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 623.8902ms
+2024-12-19T13:02:28.957+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:02:29.007+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:02:29.007+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:02:29.543+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 585.7144ms
+2024-12-19T13:02:32.963+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:02:33.011+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:02:33.011+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:05:36.448+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:05:36.476+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T13:05:36.622+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:05:36.669+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:05:36.669+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:05:37.243+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 621.8057ms
+2024-12-19T13:05:39.355+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:05:39.404+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:05:39.404+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:05:39.989+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 634.2394ms
+2024-12-19T13:05:54.322+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:05:54.371+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:05:54.371+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:05:54.950+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 627.8378ms
+2024-12-19T13:05:57.157+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:05:57.206+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:05:57.206+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:05:57.730+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 573.0735ms
+2024-12-19T13:06:02.972+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:06:03.020+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:06:03.020+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:06:03.604+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 632.0626ms
+2024-12-19T13:06:10.899+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:06:10.948+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:06:10.948+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:06:11.537+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 638.3927ms
+2024-12-19T13:06:13.314+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:06:13.363+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:06:13.363+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:06:13.941+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 626.8665ms
+2024-12-19T13:06:23.890+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:06:23.939+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:06:23.939+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:06:24.506+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 615.2411ms
+2024-12-19T13:06:27.441+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:06:27.489+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:06:27.489+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:06:28.088+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 646.7689ms
+2024-12-19T13:06:29.981+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:06:30.030+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:06:30.030+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:07:06.454+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:07:06.483+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T13:07:06.488+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:07:06.538+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:07:06.538+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:07:07.120+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 631.8279ms
+2024-12-19T13:07:09.239+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:07:09.288+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:07:09.288+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:07:09.812+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 572.5663ms
+2024-12-19T13:07:11.425+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:07:11.473+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:07:11.474+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:07:12.013+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 588.4333ms
+2024-12-19T13:07:13.682+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:07:13.731+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:07:13.731+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:07:14.261+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 578.4926ms
+2024-12-19T13:07:14.466+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:07:14.516+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:07:14.517+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:07:15.060+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 594.4268ms
+2024-12-19T13:07:16.756+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:07:16.805+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:07:16.805+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:07:17.398+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 641.4139ms
+2024-12-19T13:07:17.545+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:07:17.594+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:07:17.594+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:07:18.160+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 615.4282ms
+2024-12-19T13:07:18.354+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:07:18.403+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:07:18.404+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:07:18.985+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 631.3731ms
+2024-12-19T13:07:19.158+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:07:19.207+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:07:19.208+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:07:19.782+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 623.6202ms
+2024-12-19T13:07:19.841+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:07:19.890+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:07:19.890+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:07:20.544+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:07:20.594+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:07:20.595+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:07:21.266+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:07:21.314+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:07:21.314+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:07:22.055+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:07:22.104+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:07:22.105+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:07:22.893+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:07:22.941+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:07:22.942+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:07:25.423+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:07:25.471+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:07:25.471+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:07:27.222+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:07:27.271+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:07:27.271+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:07:28.713+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:07:28.761+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:07:28.762+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:15:15.071+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T13:15:15.122+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:15:15.123+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:15:15.172+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:15:15.172+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:15:15.778+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 655.9861ms
+2024-12-19T13:15:20.990+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:15:20.990+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:15:21.038+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:15:21.038+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:15:21.573+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 583.5655ms
+2024-12-19T13:15:23.285+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:15:23.286+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:15:23.334+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:15:23.334+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:15:23.858+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 572.6438ms
+2024-12-19T13:15:25.522+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:15:25.523+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:15:25.571+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:15:25.571+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:15:26.135+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 613.0916ms
+2024-12-19T13:15:27.800+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:15:27.800+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:15:27.848+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:15:27.849+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:15:28.390+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 590.692ms
+2024-12-19T13:15:31.014+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:15:31.014+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:15:31.062+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:15:31.063+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:15:31.610+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 595.4522ms
+2024-12-19T13:15:33.353+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:15:33.353+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:15:33.401+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:15:33.401+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:15:33.940+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 586.9864ms
+2024-12-19T13:15:35.620+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:15:35.620+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:15:35.668+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:15:35.668+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:15:36.244+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 624.3182ms
+2024-12-19T13:15:37.656+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:15:37.657+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:15:37.705+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:15:37.706+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:15:38.257+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 601.3774ms
+2024-12-19T13:15:40.254+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:15:40.255+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:15:40.304+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:15:40.304+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:15:40.866+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 611.5542ms
+2024-12-19T13:15:42.830+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:15:42.831+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:15:42.880+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:15:42.880+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:15:43.465+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 634.3748ms
+2024-12-19T13:15:45.439+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:15:45.439+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:15:45.487+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:15:45.487+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:15:46.030+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 591.6066ms
+2024-12-19T13:15:48.688+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:15:48.689+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:15:48.737+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:15:48.737+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:15:49.312+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 624.5714ms
+2024-12-19T13:16:18.566+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:16:18.566+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:16:18.613+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:16:18.614+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:16:19.196+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 630.4869ms
+2024-12-19T13:16:21.183+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:16:21.183+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:16:21.232+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:16:21.232+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:16:21.805+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 622.19ms
+2024-12-19T13:16:25.636+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:16:25.636+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:16:26.049+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:16:26.050+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:16:26.594+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 958.5109ms
+2024-12-19T13:16:29.564+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:16:29.564+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:16:29.965+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:16:29.965+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:16:30.544+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 980.5227ms
+2024-12-19T13:16:32.449+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:16:32.449+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:16:32.871+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:16:32.871+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:16:33.445+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 995.9318ms
+2024-12-19T13:16:35.337+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:16:35.337+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:16:35.755+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:16:35.755+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:16:36.328+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 991.1974ms
+2024-12-19T13:16:38.261+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:16:38.262+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:16:38.716+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:16:38.717+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:16:39.291+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.0301526s
+2024-12-19T13:16:40.919+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:16:40.920+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:16:41.328+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:16:41.328+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:16:41.917+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 998.4762ms
+2024-12-19T13:16:43.874+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:16:43.874+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:16:44.288+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:16:44.288+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:16:44.813+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 939.2299ms
+2024-12-19T13:17:44.249+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T13:17:48.904+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:17:48.904+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:17:48.952+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:17:48.952+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:17:49.433+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 529.2985ms
+2024-12-19T13:17:52.400+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:17:52.400+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:17:52.825+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:17:52.826+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:17:53.328+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 928.3616ms
+2024-12-19T13:20:30.466+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:20:30.467+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:20:30.876+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:20:30.876+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:20:31.343+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 877.1523ms
+2024-12-19T13:20:33.258+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:20:33.258+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:20:33.653+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:20:33.654+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:20:34.168+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 909.7764ms
+2024-12-19T13:20:36.161+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:20:36.162+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:20:36.569+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:20:36.569+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:20:37.092+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 931.1229ms
+2024-12-19T13:20:39.047+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:20:39.048+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:20:39.455+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:20:39.455+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:20:39.949+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 902.003ms
+2024-12-19T13:20:42.060+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:20:42.061+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:20:42.448+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:20:42.448+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:20:42.934+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 873.889ms
+2024-12-19T13:20:45.054+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:20:45.055+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:20:45.462+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:20:45.463+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:20:45.988+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 934.2856ms
+2024-12-19T13:20:48.031+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:20:48.031+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:20:48.508+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:20:48.508+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:20:49.097+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 1.0668621s
+2024-12-19T13:42:30.859+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T13:42:39.983+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:42:39.984+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:42:40.032+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:42:40.032+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:42:40.509+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 525.9134ms
+2024-12-19T13:42:42.041+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:42:42.042+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:42:42.342+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 300.5854ms
+2024-12-19T13:42:46.633+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:42:46.633+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:42:46.681+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:42:46.681+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:42:47.112+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 478.9754ms
+2024-12-19T13:42:48.123+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:42:48.124+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:42:48.443+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 319.7937ms
+2024-12-19T13:42:49.965+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:42:49.965+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:42:50.283+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 318.1076ms
+2024-12-19T13:42:51.111+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:42:51.112+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:42:51.402+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 290.7485ms
+2024-12-19T13:42:53.427+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:42:53.428+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:42:53.478+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:42:53.478+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:42:53.927+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 499.0979ms
+2024-12-19T13:42:53.941+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:42:53.942+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:42:53.990+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:42:53.990+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:42:54.471+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 529.9667ms
+2024-12-19T13:42:55.585+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:42:55.586+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:42:55.633+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:42:55.633+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:42:56.105+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 519.8411ms
+2024-12-19T13:42:58.367+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:42:58.367+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:42:58.415+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:42:58.415+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:42:58.845+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 478.0947ms
+2024-12-19T13:43:14.153+0300	DEBUG	logger/logger.go:35	New server creating on port: :8080
+2024-12-19T13:43:16.730+0300	INFO	logger/logger.go:39	Request GET /auth/login
+2024-12-19T13:43:16.730+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:43:16.778+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:43:16.778+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:43:17.336+0300	INFO	logger/logger.go:39	Completed GET /auth/login with 200 in 605.9744ms
+2024-12-19T13:43:21.554+0300	INFO	logger/logger.go:39	Request GET /auth/refresh
+2024-12-19T13:43:21.554+0300	DEBUG	logger/logger.go:35	Подключение к базе данных
+2024-12-19T13:43:21.972+0300	DEBUG	logger/logger.go:35	creating token
+2024-12-19T13:43:21.972+0300	DEBUG	logger/logger.go:35	creating successful
+2024-12-19T13:43:22.451+0300	INFO	logger/logger.go:39	Completed GET /auth/refresh with 200 in 897.3054ms
